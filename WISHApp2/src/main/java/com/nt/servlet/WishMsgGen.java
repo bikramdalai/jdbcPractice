@@ -17,7 +17,7 @@ public class WishMsgGen extends HttpServlet {
 		res.setContentType("text/html");
 	//get PrintWriter
 		PrintWriter pw=res.getWriter();
-	//b.logics
+	// request proceesing b.logics
 		LocalDateTime ldt=LocalDateTime.now();//gives the current date time
 		int hour =ldt.getHour();//give hour 0 to 23
 		if(hour<12)
